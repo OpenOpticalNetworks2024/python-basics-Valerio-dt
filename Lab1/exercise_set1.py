@@ -35,7 +35,16 @@ def exercise2():
 
 # ex3
 def exercise3():
-    pass
+    list1=list(input("Enter list: "))
+
+    first=list1[1]
+    last=list1[-1]
+    
+    if first==last:
+        print("True")
+    else:
+        print("False")
+
 
 
 # ex4
