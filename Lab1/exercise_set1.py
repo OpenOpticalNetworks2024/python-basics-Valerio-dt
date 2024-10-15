@@ -9,13 +9,29 @@ import matplotlib as plt
 
 # ex1
 def exercise1():
-    pass
+    x=int(input("inserire primo numero"))
+    y=int(input("inserire secondo numero"))
+
+    p=x*y
+
+    if p>1000:
+        print("the product is greater than 1000, so here is the sum ", x+y)
+    else:
+        print(p)
 
 
 # ex2
 def exercise2():
-    pass
+    start=int(input("Enter start of the range: "))
+    end=int(input("enter end of the range: "))
 
+    precedent=0
+
+    for i in range(start, end+1):
+        sum=i+precedent
+        print("number:", i)
+        print("Sum of current number and precedent", sum)
+        precedent=i
 
 # ex3
 def exercise3():
